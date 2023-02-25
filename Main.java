@@ -10,5 +10,14 @@ public class Main {
         n1.insertAtPostion(2,11);
         n1.printLL();
         System.out.println();
+        n1.deleteAtBegin();
+        n1.printLL();
+        System.out.println();
+        n1.deleteAtEnd();
+        n1.printLL();
+        System.out.println();
+        n1.deleteAtPostion(2);
+        n1.printLL();
+        System.out.println();
     }
 }
